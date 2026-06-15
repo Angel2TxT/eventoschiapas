@@ -77,6 +77,18 @@ textarea {
   border-bottom: 1px solid var(--line);
 }
 
+.top-strip {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(245, 158, 11, 0.12);
+  color: #fde68a;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.top-strip .container {
+  padding: 0.55rem 0;
+}
+
 .header-bar,
 .footer-bar {
   display: flex;
