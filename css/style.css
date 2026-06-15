@@ -243,6 +243,12 @@ textarea {
   max-width: 60ch;
 }
 
+.hero-note {
+  font-size: 0.98rem;
+  margin-top: 0.8rem;
+  color: #fde68a;
+}
+
 .eyebrow {
   display: inline-flex;
   gap: 0.5rem;
@@ -450,6 +456,20 @@ textarea {
   margin-top: 1.2rem;
 }
 
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.package-card {
+  padding: 1.15rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .timeline > div {
   display: grid;
   gap: 0.65rem;
@@ -533,7 +553,8 @@ textarea {
   .contact-grid,
   .feature-grid,
   .event-grid,
-  .timeline {
+  .timeline,
+  .package-grid {
     grid-template-columns: 1fr;
   }
 
