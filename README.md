@@ -18,7 +18,7 @@ Demostrar el uso de Git y GitHub en un flujo de trabajo básico con estructura o
 
 ## Participante
 
-- Angel Trujillo
+- Angel Emmanuel Trujillo Lopez
 
 ## Instrucciones de uso
 
