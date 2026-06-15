@@ -52,4 +52,4 @@ Como este trabajo se realizó de forma individual, la coevaluación puede regist
 - Responsabilidad: 100%
 - Entrega: 100%
 
-> Si tu docente pide nombres reales o un formato específico de coevaluación, reemplaza esta sección antes de entregar.
+
