@@ -4,13 +4,18 @@
 
 Archivo afectado: `index.html`
 
-Se simuló una modificación en la misma línea desde dos ramas distintas para provocar un conflicto de merge.
+Se simuló una modificación en la misma línea del encabezado desde dos ramas distintas para provocar un conflicto de merge.
+
+## Ramas involucradas
+
+- `rama-conflicto-a`: `Diseñamos eventos con orden, estilo y atención en Chiapas.`
+- `rama-conflicto-b`: `Creamos experiencias memorables para cada celebración.`
 
 ## Resultado esperado
 
 - Git marcó conflicto en el archivo.
 - Se revisaron ambos cambios.
-- Se eligió la versión final más adecuada para el sitio.
+- Se eligió una versión final combinada y más clara para el sitio.
 - Se eliminó la sintaxis de conflicto manualmente.
 
 ## Solución documentada
@@ -23,4 +28,4 @@ Se simuló una modificación en la misma línea desde dos ramas distintas para p
 
 ## Nota individual
 
-La parte de merge debe realizarla el estudiante en su repositorio para cumplir con la actividad de Git/GitHub.
+La parte de merge ya fue ejecutada para dejar evidencia en el repositorio local.
