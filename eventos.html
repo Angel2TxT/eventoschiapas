@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos Chiapas | Eventos</title>
+  <meta name="description" content="Listado de eventos, formatos y servicios de Eventos Chiapas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html" aria-label="Eventos Chiapas inicio">
+        <span class="brand-mark">EC</span>
+        <span class="brand-copy">
+          <strong>Eventos Chiapas</strong>
+          <small>Planeación y producción</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Inicio</a>
+        <a class="active" href="eventos.html">Eventos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Catálogo básico</span>
+        <h1>Tipos de eventos que puedes mostrar en esta práctica.</h1>
+        <p>
+          Esta página resume opciones de servicio para que el repositorio se vea completo
+          y la entrega cumpla con la idea de un sitio informativo realista.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar reveal">
+          <button class="filter-btn active" data-filter="all" type="button">Todos</button>
+          <button class="filter-btn" data-filter="social" type="button">Sociales</button>
+          <button class="filter-btn" data-filter="corporativo" type="button">Corporativos</button>
+          <button class="filter-btn" data-filter="cultural" type="button">Culturales</button>
+        </div>
+
+        <div class="event-grid">
+          <article class="event-card reveal" data-category="social">
+            <span class="tag">Social</span>
+            <h2>Bodas y aniversarios</h2>
+            <p>Ambientes cálidos, organización de tiempos y coordinación de proveedores clave.</p>
+            <ul>
+              <li>Decoración temática</li>
+              <li>Audio y ambientación</li>
+              <li>Recepción y logística</li>
+            </ul>
+          </article>
+
+          <article class="event-card reveal delay-1" data-category="corporativo">
+            <span class="tag">Corporativo</span>
+            <h2>Conferencias y lanzamientos</h2>
+            <p>Escenarios claros, agendas precisas y atención a invitados y ponentes.</p>
+            <ul>
+              <li>Registro de asistentes</li>
+              <li>Montaje de escenario</li>
+              <li>Control de agenda</li>
+            </ul>
+          </article>
+
+          <article class="event-card reveal delay-2" data-category="cultural">
+            <span class="tag">Cultural</span>
+            <h2>Ferias y festivales</h2>
+            <p>Diseño visual funcional para actividades públicas con alto flujo de personas.</p>
+            <ul>
+              <li>Señalización</li>
+              <li>Coordinación por áreas</li>
+              <li>Programación por bloques</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="timeline reveal">
+          <div>
+            <span>1</span>
+            <h3>Definir la idea</h3>
+            <p>Nombre, objetivo, público y alcance del evento.</p>
+          </div>
+          <div>
+            <span>2</span>
+            <h3>Organizar recursos</h3>
+            <p>Lista de insumos, horarios y responsables.</p>
+          </div>
+          <div>
+            <span>3</span>
+            <h3>Ejecutar y cerrar</h3>
+            <p>Montaje, seguimiento y entrega final.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bar">
+      <p>Eventos Chiapas · Sección de eventos</p>
+      <p id="year"></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos Chiapas | Contacto</title>
+  <meta name="description" content="Formulario y datos de contacto de Eventos Chiapas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html" aria-label="Eventos Chiapas inicio">
+        <span class="brand-mark">EC</span>
+        <span class="brand-copy">
+          <strong>Eventos Chiapas</strong>
+          <small>Planeación y producción</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="eventos.html">Eventos</a>
+        <a class="active" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Contacto directo</span>
+        <h1>Una página simple para capturar solicitudes y datos básicos.</h1>
+        <p>
+          No hay base de datos ni backend. El formulario solo sirve como maqueta visual
+          para que la entrega parezca completa y bien estructurada.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <form class="contact-form reveal">
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" placeholder="Tu nombre" />
+          </div>
+          <div class="field">
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" placeholder="correo@ejemplo.com" />
+          </div>
+          <div class="field">
+            <label for="evento">Tipo de evento</label>
+            <select id="evento">
+              <option>Boda</option>
+              <option>Conferencia</option>
+              <option>Festival</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="6" placeholder="Cuéntanos fecha, lugar y necesidades."></textarea>
+          </div>
+          <button class="btn btn-primary" type="button">Enviar solicitud</button>
+        </form>
+
+        <aside class="contact-side reveal delay-1">
+          <div class="info-card">
+            <h2>Datos de referencia</h2>
+            <p>Úsalos como ejemplo y cámbialos si tu docente te pide información real.</p>
+            <ul class="contact-list">
+              <li><strong>Correo:</strong> hola@eventoschiapas.com</li>
+              <li><strong>Teléfono:</strong> +52 961 000 0000</li>
+              <li><strong>Horario:</strong> Lunes a viernes, 9:00 a 18:00</li>
+            </ul>
+          </div>
+
+          <div class="info-card accent">
+            <h3>Nota de entrega</h3>
+            <p>
+              Aquí puedes explicar que esta página es parte del sitio estático solicitado
+              en la práctica y que la interacción es visual.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bar">
+      <p>Eventos Chiapas · Página de contacto</p>
+      <p id="year"></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
