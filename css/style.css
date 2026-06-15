@@ -443,6 +443,12 @@ textarea {
   gap: 1rem;
 }
 
+.field-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .field {
   display: grid;
   gap: 0.45rem;
@@ -504,11 +510,16 @@ textarea {
   .contact-grid,
   .feature-grid,
   .event-grid,
-  .timeline {
+  .timeline,
+  .package-grid {
     grid-template-columns: 1fr;
   }
 
   .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .field-row {
     grid-template-columns: 1fr;
   }
 }
