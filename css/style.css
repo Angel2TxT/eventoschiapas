@@ -101,6 +101,18 @@ textarea {
   padding: 1rem 0;
 }
 
+.header-bar .brand {
+  min-width: 0;
+}
+
+.header-bar .brand-copy strong {
+  font-size: 1.02rem;
+}
+
+.header-bar .brand-copy small {
+  letter-spacing: 0.01em;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
