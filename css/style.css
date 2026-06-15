@@ -167,6 +167,11 @@ textarea {
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
+.site-nav .nav-cta {
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.14);
+}
+
 .site-nav a:hover,
 .filter-btn:hover {
   background: rgba(255, 255, 255, 0.09);
