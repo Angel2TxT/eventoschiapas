@@ -214,6 +214,12 @@ textarea {
   max-width: 60ch;
 }
 
+.hero-note {
+  font-size: 0.98rem;
+  margin-top: 0.8rem;
+  color: #fde68a;
+}
+
 .eyebrow {
   display: inline-flex;
   gap: 0.5rem;
@@ -518,7 +524,8 @@ textarea {
   .contact-grid,
   .feature-grid,
   .event-grid,
-  .timeline {
+  .timeline,
+  .package-grid {
     grid-template-columns: 1fr;
   }
 
