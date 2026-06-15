@@ -18,7 +18,7 @@ Demostrar el uso de Git y GitHub en un flujo de trabajo básico con estructura o
 
 ## Participante
 
-- `Tu nombre aquí`
+- Angel Trujillo
 
 ## Instrucciones de uso
 
@@ -40,6 +40,8 @@ Demostrar el uso de Git y GitHub en un flujo de trabajo básico con estructura o
 - Desarrollo de vistas
 - Diseño responsive
 - Documentación del proyecto
+- Ramas creadas y fusionadas localmente
+- Conflicto de merge simulado y resuelto
 - Preparación para GitHub Pages
 
 ## Coevaluación individual
