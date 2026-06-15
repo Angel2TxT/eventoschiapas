@@ -77,6 +77,18 @@ textarea {
   border-bottom: 1px solid var(--line);
 }
 
+.top-strip {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(245, 158, 11, 0.12);
+  color: #fde68a;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.top-strip .container {
+  padding: 0.55rem 0;
+}
+
 .header-bar,
 .footer-bar {
   display: flex;
@@ -87,6 +99,18 @@ textarea {
 
 .header-bar {
   padding: 1rem 0;
+}
+
+.header-bar .brand {
+  min-width: 0;
+}
+
+.header-bar .brand-copy strong {
+  font-size: 1.02rem;
+}
+
+.header-bar .brand-copy small {
+  letter-spacing: 0.01em;
 }
 
 .brand {
@@ -153,6 +177,11 @@ textarea {
   padding: 0.8rem 1rem;
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.site-nav .nav-cta {
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.14);
 }
 
 .site-nav a:hover,
